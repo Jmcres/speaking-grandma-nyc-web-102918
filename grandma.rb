@@ -13,4 +13,6 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 def speak_to_grandma (string)
+  if string !=~ /[A-Z]/
+    return 
   
