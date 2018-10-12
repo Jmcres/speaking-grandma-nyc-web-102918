@@ -15,5 +15,6 @@
 def speak_to_grandma (string)
   if string !=~ /[A-Z]/
     return " HUH?! SPEAK UP, SONNY!"
- elseif string == ""   
+ elseif string == "I LOVE YOU GRANDMA!"
+   return ""
   
